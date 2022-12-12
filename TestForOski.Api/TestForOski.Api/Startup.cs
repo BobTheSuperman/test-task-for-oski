@@ -41,18 +41,6 @@ namespace TestForOski.Api
 
             services.AddSwaggerGen(c=>
             {
-                //c.ExampleFilters();
-                //c.OperationFilter<AddResponseHeadersFilter>();
-
-                //var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                //var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-
-                //c.IncludeXmlComments(xmlPath);
-
-                //c.OperationFilter<AppendAuthorizeToSummaryOperationFilter>();
-                //c.OperationFilter<SecurityRequirementsOperationFilter>();
-                //c.IncludeXmlComments(xmlPath);
-
                 c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
                 {
                     Description = "Specify a Bearer token. \nExample: Bearer yJhbGciOiJIUzI1iIsInR5cCI6IkpXVCJ9",
