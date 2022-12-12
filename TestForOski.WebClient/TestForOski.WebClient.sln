@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForOski.WebClient", "TestForOski.WebClient\TestForOski.WebClient.csproj", "{832B6C95-342E-432C-8D39-7560DFB1A3DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{832B6C95-342E-432C-8D39-7560DFB1A3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832B6C95-342E-432C-8D39-7560DFB1A3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832B6C95-342E-432C-8D39-7560DFB1A3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832B6C95-342E-432C-8D39-7560DFB1A3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FBB1CDE-5B65-43D4-AA73-3DD578CD44E1}
+	EndGlobalSection
+EndGlobal
